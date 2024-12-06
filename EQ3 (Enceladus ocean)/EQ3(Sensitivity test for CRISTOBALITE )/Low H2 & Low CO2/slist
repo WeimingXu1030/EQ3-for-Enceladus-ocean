@@ -1,0 +1,304 @@
+
+
+
+
+
+
+ eeee   qqq   pppp   ttttt
+ e     q   q  p   p    t  
+ eeee  q   q  pppp     t  
+ e     q   q  p        t  
+ eeee   qqq   p        t  
+           q              
+
+
+
+ eq6.3245R71   
+  supported by eqlib.3245R136  
+
+
+           no. of elements on the data file =    33
+              the dimensioned limit =   100
+           no. of aqueous species in the master set =    56
+              the dimensioned limit =   200
+
+
+
+ DATA FILE DATA0.3230U03                                                         
+   1 ATM.-STEAM SATURATION CURVE DATA                                            
+   LAST REVISED SEPT. 1991                                                       
+                                                                                 
+
+
+
+
+ element = O       , atwt =   15.99940
+ element = NA      , atwt =   22.98977
+ element = K       , atwt =   39.09830
+ element = CA      , atwt =   40.08000
+ element = MG      , atwt =   24.30500
+ element = AL      , atwt =   26.98154
+ element = SI      , atwt =   28.08550
+ element = SR      , atwt =   87.62000
+ element = ZN      , atwt =   65.38000
+ element = PB      , atwt =  207.20000
+ element = AG      , atwt =  107.86800
+ element = BA      , atwt =  137.33000
+ element = H       , atwt =    1.00790
+ element = C       , atwt =   12.01100
+ element = N       , atwt =   14.00670
+ element = CL      , atwt =   35.45300
+ element = S       , atwt =   32.06000
+ element = F       , atwt =   18.99840
+ element = NI      , atwt =   58.69340
+ element = MN      , atwt =   54.93800
+ element = FE      , atwt =   55.84700
+ element = CU      , atwt =   63.54600
+ element = AU      , atwt =  196.96650
+ element = CS      , atwt =  132.90540
+ element = CD      , atwt =  112.40000
+ element = U       , atwt =  238.02900
+ element = P       , atwt =   30.97376
+ element = BR      , atwt =   79.90400
+ element = MO      , atwt =   95.94000
+ element = CO      , atwt =   58.93319
+ element = B       , atwt =   10.81000
+ element = CR      , atwt =   56.00000
+ element = V       , atwt =   50.94150
+
+
+aqueous species         
+     1  H2O                 NA+                 K+                
+     4  CA++                MG++                AL+++             
+     7  SIO2(AQ)            SR++                ZN++              
+    10  PB++                AG+                 BA++              
+    13  H+                  CO3--               NH4+              
+    16  CL-                 SO4--               F-                
+    19  NI++                MN++                FE++              
+    22  CU+                 AU+                 CS+               
+    25  CD++                U++++               HPO4--            
+    28  BR-                 MOO4--              CO++              
+    31  B(OH)3(AQ)          CR+++               V+++              
+    34  O2(G)               O2(AQ)              H2(AQ)            
+    37  N2(AQ)              HS-                 FE+++             
+    40  CR++                CU++                AU+++             
+    43  NO3-                HCO3-               CLO4-             
+    46  OH-                 CN-                 CO(AQ)            
+    49  U++                 U+++                UO2+              
+    52  UO2++               MO+++               CO+++             
+    55  AGCL0               AGCL2-              AGCL3--           
+    58  AGCL4---            AL(OH)++            AL(OH)2 +         
+    61  AL(OH)3             AL(OH)4 -           ALHPO4+           
+    64  ALPO4               ALCL++              ALCL2 +           
+    67  ALCL3               ALCL4 -             ALF++             
+    70  ALF2+               ALF3                ALF4-             
+    73  ALF5--              ALF6---             AL(OSI(OH)3)++    
+    76  AL2(OH)2(OSI(OH)3)  AL2(OH)2(OSI(OH)3)  AUCL2-            
+    79  B(OH)4-             BACL+               BACO3             
+    82  BAHCO3+             BAF+                CACL+             
+    85  CACL2               CACO3               CAHCO3+           
+    88  CAF+                CASO4               CA(OH)+           
+    91  CAH2PO4+            CAHPO4              CAPO4-            
+    94  CDCL+               CDCL2               CDCL3-            
+    97  CDCL4--             CDHCO3+             CSCL              
+   100  CUCL                CUCL2-              CUCL3--           
+   103  CU(OH)2             CU(OH)3-            CUCO3             
+   106  CU(CO3)2--          FECL+               FECL2             
+   109  FEHCO3+             FECO3               FEF+              
+   112  FE(OH)+             FE(OH)2+            FE(OH)3           
+   115  FE(OH)4-            NI(HS)+             NI(HS)2,aq        
+   118  NI(HS)3-            NI(OH)+             NIO(AQ)           
+   121  HNIO2-              NIO2--              FEH2PO4+          
+   124  FEH2PO4++           FEHPO4              FEHPO4+           
+   127  FECL++              FECL2 +             FECL3             
+   130  FECL4 -             FEF++               FEF2 +            
+   133  FEF3                FE(CO3)+            CO(OH)2           
+   136  CO(HS)+             CO(HS)2,aq          VO+               
+   139  HV2O5-              HVO4--              H2VO4-            
+   142  VOH++               V++                 VO++              
+   145  VO2+                KCL                 KOH               
+   148  KSO4-               MGCL+               MGCO3             
+   151  MGHCO3+             MGF+                MG(OH)+           
+   154  MGO(AQ)             MGHPO4              MGH2PO4+          
+   157  MG(HPO4)2--         MGPO4-              MGSO4             
+   160  MNCL+               MN(HS)+             MN(HS)2,aq        
+   163  MNHCO3+             HMOO4-              MOCL++            
+   166  NACL                NAHCO3              NAF               
+   169  NAOH                NAPO4-2             NA2PO4-           
+   172  NAHPO4-             NA2HPO4             NAH2PO4           
+   175  NASO4-              PBCL+               PBCL2             
+   178  PBCL3-              PBCL4--             PB(HCO3)+         
+   181  PB(HCO3)2           PBCO3               PB(CO3)2--        
+   184  PBH2PO4+            PB(H2PO4)2          PBHPO4            
+   187  PB(HPO4)2--         PBPO4-              PB(OH)+           
+   190  PB(OH)2             PB(OH)3-            PBSO4             
+   193  SRCL+               SRHCO3+             SRCO3 0           
+   196  SRF+                ZNCL+               ZNCL2             
+   199  ZNCL3-              ZNCL4--             ZN(OH)+           
+   202  ZN(HS)+             ZN(HS)2,aq          HSIO3-            
+   205  HSO4-               H2S(AQ)             CO2(AQ)           
+   208  HCL                 HF                  NH4OH             
+   211  HNO3                U(OH)4              U(OH)5-           
+   214  U(SO4)2             UCL+++              UF+++             
+   217  UF2++               UF3+                UF4               
+   220  UF5-                UF6--               UHPO4++           
+   223  UO2(CO3)            UO2(CO3)2--         UO2(CO3)3----     
+   226  UO2H3PO4++          UO2H2PO4+           UO2(H2PO4)2       
+   229  UO2(HPO4)           UO2(HPO4)2--        UO2(PO4)-         
+   232  UO2(H2PO4)(H3PO4)+  UO2(NO3)+           UO2(SO4)2--       
+   235  UO2CL+              UO2(CL)2            UO2F+             
+   238  UO2F2               UO2F3-              UO2F4--           
+   241  UO2OH+              UO2(OH)3-           UO2(OH)4--        
+   244  UO2SO4              UOH+++              USO4++            
+   247  CUH2PO4+            CUPO4-              H2PO4-            
+   250  H3PO4               PO4---              H2P2O7-2          
+   253  HP2O7-3             P2O7-4            
+
+
+minerals                
+     1  ALUNITE             F-APATITE           OH-APATITE        
+     4  B-WHITLOCKITE       WHITLOCKITE         MERRILLITE        
+     7  CA-HPO4             CL-APATITE          VIVIANITE         
+    10  NEWBERYITE          BOBIERRITE          KMGPO4*6H2O       
+    13  NH4AL2(PO4)2OH      KAL2(PO4)2OH        BRUSHITE          
+    16  CAALH(PO4)2         K-TARANAKITE        N-TARANAKITE      
+
+ ----- electrical imbalance =  1.000000E+00 for the reaction below -----
+
+ ----- O   mass imbalance = -1.500000E+00 for the reaction below -----
+
+ ----- C   mass imbalance = -5.000000E-01 for the reaction below -----
+
+                        1.00000  FRANCOLITE        
+                   +    5.50000  H+                
+
+                               =
+
+                       10.00000  CA++              
+                   +    2.50000  F-                
+                   +    5.50000  HPO4--            
+    19  FRANCOLITE          OCP                 STRUVITE          
+    22  VARISCITE           STRENGITE           MAGNETITE         
+    25  CO(OH)3,CR          CO(OH)2,CR          COOOH,CR         X
+
+ ----- O   mass imbalance = -4.000000E+00 for the reaction below -----
+
+ ----- H   mass imbalance = -8.000000E+00 for the reaction below -----
+
+                        1.00000  CO3O4,CR         X
+                   +    8.00000  H+                
+
+                               =
+
+                        1.00000  CO++              
+                   +    2.00000  CO+++             
+    28  CO3O4,CR         X  COCO3,CR            COS,CR            
+    31  CO-PENTLANDITE      CATTIERITE          LINNAEITE         
+    34  CO-OLIVINE          CORUNDUM            HEMATITE          
+    37  ESKOLAITE           VO,CR               VS,CR             
+    40  V2S3,CR             VS4,CR              KARELIANITE       
+    43  V(OH)3,CR           VO(OH)2,CR          SHCHERB           
+    46  PERICLASE           LIME                PORTLANDITE       
+    49  ALITE               BELITE              ALUMINATE         
+    52  FERRITE             CSHJ                CSHT              
+    55  AFMSO4              AFMCO3              AFM.5CO3          
+    58  AFTSO4              AFTCO3              SI-HGARNET        
+    61  HGARNET             DAWSONITE           SPINEL            
+    64  BRUCITE             DIASPORE            CALCITE           
+    67  ARAGONITE           MAGNESITE           DOLOMITE          
+    70  DOLOMITE_DIS.       ANDALUSITE          KYANITE           
+    73  SILLIMANITE         GROSSULAR           LAWSONITE         
+    76  ZOISITE             CLINOZOISITE        FORSTERITE        
+    79  FAYALITE            MONTICELLITE        MERWINITE         
+    82  CHRYSOTILE          CLINOENSTATITE      ENSTATITE         
+    85  PROTOENSTATITE      DIOPSIDE            JADEITE           
+    88  CA-AL PYROXENE      FERROSILITE         WOLLASTONITE      
+    91  PSEUDOWOLLASTONITE  TREMOLITE           F-TREMOLITE       
+    94  ANTHOPHYLLITE       CORDIERITE          SANIDINE        X 
+    97  K-FELDSPAR          ALBITE              LOW ALBITE        
+   100  HIGH ALBITE         ANORTHITE           GEHLENITE         
+   103  KAOLINITE           ANTIGORITE          PYROPHYLLITE      
+   106  TALC                F-TALC              AKERMANITE        
+   109  MUSCOVITE           F-MUSCOVITE         ANNITE            
+   112  F-ANNITE            CL-ANNITE           PHLOGOPITE        
+   115  F-PHLOGOPITE        CL-PHLOGOPITE       PARAGONITE        
+   118  MARGARITE           PREHNITE            CLINOCHLORE       
+   121  CHAMOSITE       X   LIZARDITE(0.5)      PYROPE            
+   124  ALMANDINE           MEIONITE            STAUROLITE        
+   127  FE-CHLORITOID       COESITE             SILVER            
+   130  GOLD                COPPER              IRON              
+   133  NICKEL              MILLERITE           NI(OH)2,s         
+
+ ----- electrical imbalance =  4.000000E+00 for the reaction below -----
+
+ ----- O   mass imbalance = -6.000000E+00 for the reaction below -----
+
+ ----- C   mass imbalance = -2.000000E+00 for the reaction below -----
+
+                        1.00000  NICO3,s           
+                   +    1.00000  CO3--             
+
+                               =
+
+                        1.00000  NI++              
+
+ ----- electrical imbalance = -7.800000E-01 for the reaction below -----
+
+ ----- O   mass imbalance =  6.400000E-01 for the reaction below -----
+
+ ----- AL  mass imbalance = -1.100000E-01 for the reaction below -----
+
+ ----- H   mass imbalance =  2.000000E-01 for the reaction below -----
+
+ ----- C   mass imbalance =  1.800000E-01 for the reaction below -----
+
+                        1.00000  NIAL-CO3          
+                   +    2.00000  H+                
+
+                               =
+
+                        2.56000  H2O               
+                   +     .22000  AL+++             
+                   +     .36000  CO3--             
+                   +     .64000  NI++              
+   136  NICO3,s             NIAL-CO3            PIMELITE          
+   139  FE(CO)5             GRAPHITE            PYRRHOTITE        
+   142  SPHALERITE          WURTZITE            GALENA            
+   145  COVELLITE           ACANTHITE           CHALCOCITE        
+   148  PYRITE              MOLYBDENITE         MODIOXIDE         
+   151  MOTRIOXIDE          CHALCOPYRITE        ALABANDITE        
+   154  BORNITE             CUPRITE             TENORITE          
+   157  FERROUS OXIDE       AM-FE(OH)3          GOETHITE          
+   160  MANGANOSITE         GIBBSITE            GIBBSITE (MICR.)  
+   163  AL(OH)3 AM.         SEPIOLITE           KEROLITE          
+   166  HALITE              SYLVITE             FLUORITE          
+   169  GREENALITE          SIDERITE            RHODOCHROSITE     
+   172  OTAVITE             SMITHSONITE         CERUSSITE         
+   175  STRONTIANITE        WITHERITE           HYDROMAGNESITE    
+   178  NESQUEHONITE        MALACHITE           AZURITE           
+   181  ANHYDRITE           GYPSUM              BARITE            
+   184  ANGLESITE           CELESTITE           QUARTZ            
+   187  CRISTOBALITE-ALPHA  CRISTOBALITE-BETA   CHALCEDONY        
+   190  AMORPHOUS SILICA    COFFINITE           U(C,ALPH)         
+   193  U(HPO4)2.4H2O       U(SO4)2(C)          U(SO4)2.4H2O      
+   196  U(SO4)2.8H2O        U3O8(C,ALPH)        U4O9(C)           
+   199  UO2(OH)2(C,BET)     UO2CL2(C)           UO2SO4(C)         
+   202  URANINITE           URANOPHANE          SKLODOWSKITE      
+   205  H-AUTUNITE          SALEEITE            CA-AUTUNITE       
+   208  TORBERNITE          UO2-AUTUNITE        PB-AUTUNITE       
+   211  FE-AUTUNITE         SR-AUTUNITE       
+
+
+gases                   
+     1  CO2(G)              NH3(G)              O2(G)             
+     4  S2(G)               N2(G)               CH4(G)            
+     7  H2(G)               H2S(G)              STEAM             
+
+
+solid solutions         
+     1  (NA,K)-SANIDINE     PLAGIOCLASE         ORTHOPYROXENE     
+     4  OLIVINE             BIOTITE             CA-SMECTITE       
+     7  NA-SMECTITE         TALC(SS)            CLINOPYROXENE     
+    10  CA-AMPHIBOLE(SS)    CHLORITE            MAGNETITE(SS)     
+    13  SPHALERITE(SS)      CALCITE(SS)         APATITE(SS)       
+    16  CSH(SS)           

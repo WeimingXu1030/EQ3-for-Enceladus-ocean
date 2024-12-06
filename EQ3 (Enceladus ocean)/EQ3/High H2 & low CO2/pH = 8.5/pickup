@@ -1,0 +1,50 @@
+* pickup file written by eq3nr.3245R110
+*  supported by eqlib.3245R136
+                                                                                
+Subsurface seawater in the Enceladus                                            
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+endit.
+    uacion= CL-         
+    tempci=   .00000E+00
+     nxmod=  2
+   species= GRAPHITE          
+      type=  1              option= -1              xlkmod=   .00000E+00
+   species= FAYALITE          
+      type=  1              option= -1              xlkmod=   .00000E+00
+     iopg1=  0               iopg2= -1               iopg3=  0
+     iopg4=  0               iopg5=  0               iopg6=  0
+     iopg7=  0               iopg8=  0               iopg9=  0
+    iopg10=  0
+       kct= 13                 ksq= 14                 kmt= 14
+       kxt= 14                kdim= 14                kprs=  0
+   O                   .555394203791877E+02
+   NA                  .576170724621149E-01
+   K                   .570000000000149E-03
+   CA                  .290950572301959E-05
+   MG                  .100797647277737E-02
+   SI                  .232714997670113E-04
+   H                   .111028722842853E+03
+   C                   .102000000395077E-01
+   N                   .130000000000424E-03
+   CL                  .500000000005560E-01
+   S                   .117018128487985E-05
+   FE                  .116724191773275E-04
+   P                   .444669924088201E-04
+   electr             -.346176975973833E-10
+   H2O                H2O                     .174436091209183E+01
+   NA+                NA+                    -.124630169349558E+01
+   K+                 K+                     -.324418890403306E+01
+   CA++               CA++                   -.557222066219809E+01
+   MG++               MG++                   -.303222066219810E+01
+   SIO2(AQ)           SIO2(AQ)               -.464100000000000E+01
+   H+                 H+                     -.840917144294196E+01
+   CO3--              CO3--                  -.387764424306998E+01
+   NH4+               NH4+                   -.389502087782782E+01
+   CL-                CL-                    -.130357053556270E+01
+   HS-                SO4--                  -.595938323337790E+01
+   FE++               FE++                   -.571522066219810E+01
+   HPO4--             HPO4--                 -.439779122265672E+01
+   O2(G)              O2(G)                  -.915600000000000E+02

@@ -1,0 +1,67 @@
+
+Subsurface seawater in the Enceladus      
+
+ 
+
+endit.                                                                          
+     tempc=           0.                                                        
+       rho=          1.0    tdspkg=           0.     tdspl=           0.        
+       fep=       -89.94    uredox=                                             
+     tolbt=           0.     toldl=           0.    tolsat=           0.        
+    itermx=  0                                                                  
+*               1    2    3    4    5    6    7    8    9  10                   
+  iopt1-10=     0    0    0    0    0    0    0    0    0   0                   
+  iopg1-10=     0   -1    0    0    0    0    0    0    0   0                   
+  iopr1-10=     0    2    0    0    0    0    1         0                       
+ iopr11-20=     0    0    0    0    0    0    0                                 
+  iodb1-10=     0    0    0    0    0    0    0                                 
+     uebal= NA+  
+    uacion= CL-
+     nxmod=  2
+   SPECIES= GRAPHITE
+      TYPE=  1              OPTION= -1             XLKMOD=  0.0
+   SPECIES= FAYALITE
+      TYPE=  1              OPTION= -1             XLKMOD=  0.0
+data file master species= NA+                                                   
+   switch with species=                                                         
+   jflag=  0   csp= 0.23                                                     
+data file master species= CL-                                                   
+   switch with species=                                                         
+   jflag=  0   csp= 0.20
+data file master species= NH4+                                                   
+   switch with species=                                                         
+   jflag=  0   csp= 0.000019
+data file master species= K+                                                   
+   switch with species=                                                         
+   jflag=  0   csp= 0.0032                                                       
+data file master species= SIO2(AQ)                                                   
+   switch with species=                                                         
+   jflag= 19   csp= 
+   uphase= QUARTZ
+data file master species= MG++                                                   
+   switch with species=                                                         
+   jflag= 19   csp= 
+   uphase= TALC
+data file master species= H+                                                    
+   switch with species=                                                         
+   jflag= 16   csp= -10.0
+data file master species= CA++                                                   
+   switch with species=                                                         
+   jflag= 19   csp= 
+   uphase= DOLOMITE
+data file master species= FE++                                                   
+   switch with species=                                                          
+   jflag= 19   csp= 
+   uphase= MINNESOTAITE
+data file master species= SO4--                                                   
+   switch with species=                                                          
+   jflag= 19   csp= 
+   uphase= PYRRHOTITE
+data file master species= CO3--
+   switch with species=                                                     
+   jflag=  0   csp= 0.10
+data file master species= HPO4--
+   switch with species=                                                     
+   jflag= 19   csp= 
+   uphase= MERRILLITE
+endit.
